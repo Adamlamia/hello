@@ -8,19 +8,14 @@ function Employee(params) {
       />
       <div class="text-center space-y-2 sm:text-left">
         <div class="space-y-0.5">
-          <p class="text-lg text-black font-semibold">Employee {params.name}</p>
+          <p class="text-lg text-black font-semibold">{params.name}</p>
           <p class="text-slate-500 font-medium">{params.role ? params.role : "No role"}</p>
         </div>
         <button class="px-4 py-1 text-sm text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2">
-          Message
+          Update
         </button>
       </div>
-    </div> /*
-        <>
-            <h3>Employee {params.name}</h3>
-            <h4>{params.role ? params.role : "no role"}</h4>
-
-        </>*/
+    </div> 
   );
 }
 export default Employee;
