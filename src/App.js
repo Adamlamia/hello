@@ -17,15 +17,15 @@ function App() {
             }}
           />
           <div className="flex flex-wrap">
-            <Employee name="Lamia" role="Project Manager" img="\src\img\projectLeader.jpg"/>
-            <Employee name="Adam" role="Design Assistant"  />
-            <Employee name="Dezz" role={role} />
-            <Employee name="Roxane" role="Analysist Team"/>
-            <Employee name="Damian" role="Analysist Team"  />
-            <Employee name="Felix" role={role} />
-            <Employee name="Remy" role="Analysist Team"/>
-            <Employee name="Jerelyne" role="Analysist Team"  />
-            <Employee name="James" role={role} />
+            <Employee name="Lamia" role="Project Manager" img="https://picsum.photos/200"/>
+            <Employee name="Adam" role="Design Assistant" img="https://picsum.photos/200"/>
+            <Employee name="Dezz" role={role} img="https://picsum.photos/200"/>
+            <Employee name="Roxane" role="Analysist Team" img="https://picsum.photos/200"/>
+            <Employee name="Damian" role="Analysist Team" img="https://picsum.photos/200"/>
+            <Employee name="Felix" role={role} img="https://picsum.photos/200"/>
+            <Employee name="Remy" role="Analysist Team" img="https://picsum.photos/200"/>
+            <Employee name="Jerelyne" role="Analysist Team" img="https://picsum.photos/200"/>
+            <Employee name="James" role={role} img="https://picsum.photos/200"/>
           </div>
         </>
       ) : (
