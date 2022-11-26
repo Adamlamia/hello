@@ -49,7 +49,7 @@ function App() {
               seRole(e.target.value);
             }}
           />
-          <div className="flex flex-wrap">
+          <div className="flex flex-wrap justify-center">
             {employees.map((employee) => {
               console.log(uuidv4());//to see the unique key given to each child
               return(
