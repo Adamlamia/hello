@@ -11,11 +11,18 @@ function Employee(params) {
       <div className="text-center space-y-2 sm:text-left">
         <div className="space-y-0.5">
           <p className="text-lg text-black font-semibold">{params.name}</p>
-          <p className="text-slate-500 font-medium">{params.role ? params.role : "No role"}</p>
+          <p className="text-slate-500 font-medium">
+            {params.role ? params.role : "No role"}
+          </p>
         </div>
-        <EditEmployee />
+        <EditEmployee
+          id={params.id}
+          name={params.name}
+          role={params.role}
+          updateEmployee={params.updateEmployee}
+        />
       </div>
-    </div> 
+    </div>
   );
 }
 export default Employee;
